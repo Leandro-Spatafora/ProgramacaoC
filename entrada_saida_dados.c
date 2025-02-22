@@ -28,4 +28,5 @@ int main(){
     printf("Você tem %d anos\n", idade);
     printf("Sua altura é de: %.2f metros\n", altura);
     printf("Você tem R$%.2f na conta!\n", saldo);
+    return 0;
 }
