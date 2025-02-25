@@ -11,7 +11,7 @@ int main(){
     printf("Digite sua altura: \n");
     scanf("%f", &altura);
     
-    printf("Sigite seu nome: \n");
+    printf("Digite seu nome: \n");
     scanf("%s", nome);
     
     printf("Digite o número da sua matrícula: \n");
