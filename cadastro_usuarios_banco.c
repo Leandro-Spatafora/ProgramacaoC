@@ -19,10 +19,10 @@ int main(void){
     scanf("%hd", &score);
     
     //Exibindo informações cadastradas
-    printf("ID de usuário: %llu\n", userID);
+    printf("\nID de usuário: %llu\n", userID);
     printf("Idade: %hu anos\n", idade);
     printf("Saldo: R$%.2Lf\n", saldo);
-    printf("Score: %hd", score);
+    printf("Score: %hd\n", score);
     
     //Encerra o programa
     return 0;
