@@ -12,17 +12,17 @@ int main(void){
     printf("Insira o ID de usuário: ");
     scanf("%llu", &userID);
     printf("Insira a idade: ");
-    scanf("%u", &idade);
+    scanf("%hu", &idade);
     printf("Insira o saldo bancário: ");
-    scanf("%lf", &saldo);
+    scanf("%Lf", &saldo);
     printf("Score Serasa: ");
-    scanf("%d", &score);
+    scanf("%hd", &score);
     
     //Exibindo informações cadastradas
     printf("ID de usuário: %llu\n", userID);
-    printf("Idade: %u anos\n", idade);
-    printf("Saldo: R$%.2lf\n", saldo);
-    printf("Score: %d", score);
+    printf("Idade: %hu anos\n", idade);
+    printf("Saldo: R$%.2Lf\n", saldo);
+    printf("Score: %hd", score);
     
     //Encerra o programa
     return 0;
